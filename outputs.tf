@@ -1,5 +1,5 @@
 resource "random_id" "example" {
-  byte_length = 16
+  byte_length = 8
 }
 
 output "sensitive_output" {
